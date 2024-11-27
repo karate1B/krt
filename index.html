@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>A Jornada do Herói Perdido</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>O herói vive uma vida simples e tranquila em sua aldeia.</p>
+            <button class="btn-proximo" data-proximo="1">Aceitar o chamado</button>
+            <button class="btn-proximo" data-proximo="2">Recusar o chamado</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Um estranho chega à aldeia com um mapa misterioso, pedindo ajuda para encontrar um artefato perdido.</p>
+            <button class="btn-proximo" data-proximo="3">Visitar o mentor</button>
+            <button class="btn-proximo" data-proximo="4">Sair da aldeia</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O herói hesita, temendo abandonar sua vida segura.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Um ancião da aldeia oferece conselhos e entrega ao herói um amuleto mágico.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir para a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.png" alt="">
+            <p>O herói aceita o chamado e parte, enfrentando um rio perigoso para deixar a aldeia.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir para a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Um grupo de bandidos embosca o herói, que precisa usar astúcia para escapar.</p>
+            <button class="btn-proximo" data-proximo="6">Tentar fazer amizade</button>
+            <button class="btn-proximo" data-proximo="7">Tentar fugir</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O herói faz amizade com um ladrão astuto e uma guerreira misteriosa; descobre que um vilão busca o mesmo
+                artefato.</p>
+            <button class="btn-proximo" data-proximo="8">Continuar aventura</button>
+            <button class="btn-proximo" data-proximo="9">Desistir e levar seu grupo para a aldeia</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>O herói tenta fugir mas depois que escapa acaba sendo envenenado por uma cobra, acaba morrendo.</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo8.png" alt="">
+            <p>O grupo entra em uma caverna cheia de armadilhas para encontrar a chave do artefato.</p>
+            <button class="btn-proximo" data-proximo="10">Procurar a chave com o grupo</button>
+            <button class="btn-proximo" data-proximo="11">Procurar a chave sozinho</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo9.png" alt="">
+            <p>O herói retorna a aldeia com o seu grupo, e acaba sendo traido e então acontece um massacre a aldeia para
+                ninguém mais saber do amuleto.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O grupo então segue explorando a caverna, no entanto se deparam com um perigo extremo, deixando o herói
+                em risco e então o ladrão e a guerreira se sacrificam para manter o herói vivo.</p>
+            <button class="btn-proximo" data-proximo="12">Prosseguir</button>
+            <button class="btn-proximo" data-proximo="13">Desistir</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>O herói acha a chave, e quando vai atrás de seus amigos vê eles mortos nas amardilhas da caverna e segue seu caminho rumo ao artefato.</p>
+            <button class="btn-proximo" data-proximo="12">Prosseguir</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>O herói enfrenta o vilão em uma batalha, superando seus medos e usando o amuleto para vencer.</p>
+            <button class="btn-proximo" data-proximo="14">Recuperar o amuleto</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>O herói decidi que a aventura é grande demais e retorna a aldeia sm sucesso.</p>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>O herói recupera o artefato, que se revela ser uma arma de poder imenso,e então retorna à aldeia, decidido a proteger seu povo com a sabedoria adquirida.</p>
+            <button class="btn-proximo" data-proximo="15">Retornar a aldeia</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>A aldeia celebra o herói, que agora vive como guardião e líder, pronto para futuras aventuras.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
